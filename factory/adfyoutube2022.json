@@ -1,0 +1,9 @@
+{
+	"name": "adfyoutube2022",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8b9c1224-7cd6-4b69-b703-a994a37126c9",
+		"tenantId": "7da50ca3-1f41-41b7-8355-148079fae2dc"
+	}
+}
