@@ -1,0 +1,21 @@
+{
+	"name": "SourceDataset_qzh",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BlobStorageExample",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "copy data.zip",
+				"container": "input"
+			},
+			"compression": {
+				"type": "ZipDeflate"
+			}
+		}
+	}
+}
