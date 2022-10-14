@@ -1,5 +1,5 @@
 {
-	"name": "Parquet1",
+	"name": "new_york_taxi_parquet",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "BlobStorageExample",
@@ -9,7 +9,10 @@
 		"type": "Parquet",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation"
+				"type": "AzureBlobStorageLocation",
+				"fileName": "yellow_tripdata_2022-02.parquet",
+				"folderPath": "2022",
+				"container": "output"
 			},
 			"compressionCodec": "snappy"
 		},

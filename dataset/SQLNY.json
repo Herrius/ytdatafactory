@@ -1,0 +1,60 @@
+{
+	"name": "SQLNY",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "RowId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TpepPickupDateTime",
+				"type": "date"
+			},
+			{
+				"name": "TpepDropoffDateTime",
+				"type": "date"
+			},
+			{
+				"name": "PassengerCount",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "EndLat",
+				"type": "real",
+				"precision": 7
+			},
+			{
+				"name": "EndLong",
+				"type": "real",
+				"precision": 7
+			},
+			{
+				"name": "StartLat",
+				"type": "real",
+				"precision": 7
+			},
+			{
+				"name": "StartLon",
+				"type": "real",
+				"precision": 7
+			},
+			{
+				"name": "TollsAmount",
+				"type": "real",
+				"precision": 7
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Taxi_report"
+		}
+	}
+}
