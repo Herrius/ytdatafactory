@@ -14,47 +14,36 @@
 				"precision": 10
 			},
 			{
-				"name": "TpepPickupDateTime",
+				"name": "Retailer",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SalesMonth",
 				"type": "date"
 			},
 			{
-				"name": "TpepDropoffDateTime",
-				"type": "date"
+				"name": "Product",
+				"type": "nvarchar"
 			},
 			{
-				"name": "PassengerCount",
+				"name": "ManufacturerProductCode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SalesValueUSD",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
+			},
+			{
+				"name": "UnitsSold",
 				"type": "int",
 				"precision": 10
-			},
-			{
-				"name": "EndLat",
-				"type": "real",
-				"precision": 7
-			},
-			{
-				"name": "EndLong",
-				"type": "real",
-				"precision": 7
-			},
-			{
-				"name": "StartLat",
-				"type": "real",
-				"precision": 7
-			},
-			{
-				"name": "StartLon",
-				"type": "real",
-				"precision": 7
-			},
-			{
-				"name": "TollsAmount",
-				"type": "real",
-				"precision": 7
 			}
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "Taxi_report"
+			"table": "Sales_LOAD"
 		}
 	}
 }
